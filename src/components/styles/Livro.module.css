@@ -1,0 +1,54 @@
+.containerBook {
+    width: 245px;
+    height: 280px;
+    background-color: white;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 7px 15px 7px #817e7e;
+}
+
+.containerBook h3 {
+    background-color: #057ae5;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 21px;
+    border-radius: 5px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.author, .gender {
+    word-wrap: break-word;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.description label {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.containerOptions {
+    display: flex;
+    padding-top: 25px;
+    gap: 5px;
+}
+
+.containerOptions .btnDelete {
+    background-color: #dddddd;
+    border: 2px solid #057ae5;
+    font-size: 17px;
+    font-weight: 500;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.containerOptions .btnDelete:hover {
+    background-color: #b8b8b8;
+}   

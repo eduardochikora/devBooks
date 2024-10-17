@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    gap: 10px;
+    background-color: #057ae5;
+    height: 150px;
+}
+
+footer h3, footer h4 {
+    color: white;
+    font-weight: 400;
+}
